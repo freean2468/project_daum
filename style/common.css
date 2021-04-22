@@ -108,6 +108,14 @@ main > div.common-container {
   display: flex;
 }
 
+main > div.common-container > span {
+  flex-grow: 1;
+}
+
+main > div.common-container > aside {
+  flex-grow: 1;
+}
+
 footer > div.common-container {
   display: flex;
   padding-top: 20px;
