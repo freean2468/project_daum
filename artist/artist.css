@@ -1,0 +1,46 @@
+.common-container > div {
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("./img/exo_sehun1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+/* .artist-introduction */
+/* space-introduction + artist-introduction-introduction */
+.artist-introduction-box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 20;
+}
+
+.space-introduction {
+  flex-grow: 20;
+}
+
+.artist-introduction {
+  flex-grow: 1;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 500px 20px 20px;
+  border-radius: 8px;
+}
+
+/* .artist-schedule */
+.artist-schedule-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-schedule {
+  flex-grow: 1;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  margin: 15px 15px 0 0;
+}
+
+.space-schedule {
+  flex-grow: 10;
+}
