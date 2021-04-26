@@ -101,18 +101,7 @@ nav > ul > li {
 }
 
 main {
-  flex-grow: 1;
-}
-
-main > div.common-container {
   display: flex;
-}
-
-main > div.common-container > span {
-  flex-grow: 1;
-}
-
-main > div.common-container > aside {
   flex-grow: 1;
 }
 
