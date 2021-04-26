@@ -1,9 +1,9 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/db/db_index.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <?php include $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/head.php"; ?>
+    <link rel="stylesheet" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/project_daum/schedule/schedule.css?after=1">
 </head>
 
 <body>
@@ -17,12 +17,7 @@
 
     <main>
         <div class="common-container">
-            <span>
-                <?php include $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/main.php"; ?>
-            </span>
-            <aside>
-                <?php include $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/aside.php"; ?>
-            </aside>
+
         </div>
     </main>
 
