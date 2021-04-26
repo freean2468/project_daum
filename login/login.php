@@ -11,10 +11,6 @@
         <?php include $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/header.php"; ?>
     </header>
 
-    <nav>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/nav.php"; ?>
-    </nav>
-
     <main>
         <div class="common-container">
             
