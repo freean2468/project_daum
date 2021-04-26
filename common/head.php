@@ -4,7 +4,7 @@
 <meta name="referrer" content="no-referrer">
 
 <!-- common css -->
-<link rel="stylesheet" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/project_daum/style/common.css?after=1">
+<link rel="stylesheet" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/project_daum/style/common.css?after=3">
 
 <!-- font awesome -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
