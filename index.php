@@ -4,6 +4,17 @@
 
 <head>
     <?php include $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/head.php"; ?>
+    <?php 
+        include_once $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/db/db_create_table.php";
+
+        // 테이블 생성
+        create_table($con,'member_table');
+        create_table($con,'artist_table');
+        create_table($con,'board_table');
+        create_table($con,'schedule_table');
+        mysqli_close($con);
+    ?>
+    
 </head>
 
 <body>
