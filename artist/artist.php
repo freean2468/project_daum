@@ -34,7 +34,7 @@
                 <div class="artist-schedule-box">
                     <div class="artist-schedule">
                         <h3>schedule</h3>
-                        (설계를 위해 임의로 지어낸 일정입니다.) <br>
+                        (설계를 위해 임의로 지어낸 일정입니다.) <br><br>
                         2021-04-07 지금 헤어지는 중입니다. 출연 확정 <br>
                         2021-04-08 엑소 데뷔 9주년 <br>
                         2021-04-12 세훈 생일 <br>
