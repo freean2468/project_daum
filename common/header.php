@@ -9,6 +9,7 @@
         검색창
     </span>
     <span>
-        로그인
+    <a href="http://<?=$_SERVER['HTTP_HOST'];?>/project_daum/login/login.php">로그인</a>
+        <a href="http://<?=$_SERVER['HTTP_HOST'];?>/project_daum/register/register.php">회원 가입</a>
     </span>
 </div>
