@@ -5,6 +5,7 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . "/project_daum/common/head.php"; ?>
     <!-- <link rel="stylesheet" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/project_daum/schedule/register.css?after=1"> -->
     <script defer src="./js/register.js"></script>
+    
 </head>
 
 <body>
@@ -16,15 +17,11 @@
         
         <table style="margin: 0 auto;">
             <form name="register_form" method="post" action="./register_insert.php">
-                <tr>
+                <tr>    
                     <td>
                         <input type="text" name="id" placeholder="아이디 입력">
                         <input type="button" value="ID중복확인" onclick="check_id()">
-                        <!-- <form name="check_id_form" method="post" action="./exists_id.php"> -->
-                            <!-- <input type="button" id="isExistsId" name="isExistsId" value="ID 중복" onclick="is_duplication_Id()"> -->
-                            <!-- <input type="hidden" name="isExistsId" value="<script>document.register_form.id.value;</script>"> -->
-                            <!-- <input type="submit" value="ID 중복확인"> -->
-                        <!-- </form> -->
+                        
                     </td>
                 </tr>
                 <tr>
